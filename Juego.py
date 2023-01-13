@@ -139,7 +139,7 @@ def partida(dificultad):
             self.t = True
 
         def disparar(self):
-            bala = Bala(self.rect.centerx, self.rect.top, 22 + (self.n - 1) * dificultad)  
+            bala = Bala(self.rect.centerx, self.rect.top, 14 + (self.n - 1) * dificultad)  
             balasN.add(bala)
             sonido_tiro.play()
 
